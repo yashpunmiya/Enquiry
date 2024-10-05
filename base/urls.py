@@ -23,5 +23,6 @@ urlpatterns = [
     path('signup/college/', views.college_signup_view, name='college_signup'),
     path('dashboard/student/', views.student_dashboard_view, name='student_dashboard'),
     path('dashboard/college/', views.college_dashboard_view, name='college_dashboard'),
+    path('tour/<int:tour_id>/', views.college_tour, name='college_tour'),
+    
 ]
-
